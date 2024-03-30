@@ -65,3 +65,7 @@ Add an event handler so that when the user sets the "FancyShmancy" radio button,
         var parts = str.split(" ");  // ["How", "are", "you?"]
         str = parts.join("_");       // "How_are_you?"
 
+
+
+# link
+<a href="https://adibaadi.github.io/AdibaAkter.github.io.193Assignment5/">Try Out the Link for Fancyfy your Text </a>
