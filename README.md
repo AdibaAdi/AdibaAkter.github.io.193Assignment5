@@ -1,5 +1,7 @@
 # Assignment 5 - Fun with JavaScript
 
+# link
+<a href="https://adibaadi.github.io/AdibaAkter.github.io.193Assignment5/">Try Out the Link for Fancyfy your Text </a>
 
 Test out your Javascript by writing a page where the user can type text into a box, and by clicking on UI controls, the text will get styling. The HTML page fancifymytext.html contains a basic HTML shell and page header.
 
@@ -64,8 +66,3 @@ Add an event handler so that when the user sets the "FancyShmancy" radio button,
         var str = "How are you?"
         var parts = str.split(" ");  // ["How", "are", "you?"]
         str = parts.join("_");       // "How_are_you?"
-
-
-
-# link
-<a href="https://adibaadi.github.io/AdibaAkter.github.io.193Assignment5/">Try Out the Link for Fancyfy your Text </a>
