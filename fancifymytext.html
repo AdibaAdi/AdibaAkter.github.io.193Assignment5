@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fancify Shamcify</title>
+    <style>
+        body {
+            text-align: center; 
+        }
+		h1{
+			color: rgb(231, 49, 49);
+		}
+        .fancify-control {
+            margin: 0 auto; 
+            width: fit-content;
+            background-color: yellow; 
+            border: 2px solid black; 
+            padding: 10px;
+            margin-top: 20px; 
+        }
+        button {
+            background-color: rgb(231, 49, 49); 
+            color: white; 
+            padding: 5px 15px; 
+            margin: 5px;
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; /
+        }
+        button:hover {
+            background-color: darkred;
+        }
+    </style>
+    <!-- Link to your script file here -->
+    <script src="fancifymytext.js"></script>
+</head>
+<body>
+    <div class="content-wrapper">
+        <h1>Fancify my Text</h1>
+    
+        <!-- Text Area -->
+        <fieldset class="fancify-control">
+            <legend>Text</legend>
+            <textarea id="userText" rows="4" cols="30"></textarea>
+        </fieldset>
+    
+        <!-- Fancify Controls -->
+        <fieldset class="fancify-control">
+            <legend>Fancify</legend>
+            <button id="biggerBtn">Bigger!</button>
+            <input type="radio" id="fancyShmancy" name="style" onchange="changeStyle()">FancyShmancy
+            <input type="radio" id="boringBetty" name="style" onchange="changeStyle()">BoringBetty
+        </fieldset>
+    
+        <!-- Moo Button -->
+        <button id="mooBtn">Moo</button>
+    </div>
+</body>
+</html>
